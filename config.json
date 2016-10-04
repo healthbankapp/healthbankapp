@@ -1,6 +1,6 @@
 {
     "footer": "Status page hosted by GitHub",
-    "logo": "https://raw.githubusercontent.com/jayfk/statuspage/master/template/logo.png",
-    "title": "Status",
-    "favicon": "https://raw.githubusercontent.com/jayfk/statuspage/master/template/favicon.png"
+    "logo": "https://github.com/healthbankapp/healthbankapp/blob/gh-pages/Health_bank_final.jpg?raw=true",
+    "title": "HealthBankApp Status",
+    "favicon": "https://github.com/healthbankapp/healthbankapp/blob/gh-pages/favicon.ico?raw=true"
 }
