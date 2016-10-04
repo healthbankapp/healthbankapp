@@ -53,7 +53,7 @@
 				{% if incidents %}
 					{% for incident in incidents %}
 					<div class="incident">
-						<span class="date moment">{{ incident.created.strftime("%d-%b-%Y %H:%M:%S") }} UTC</span>
+						<span class="date moment">{{ incident.created }} UTC</span>
 
 						{% if incident.closed %}
 							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
@@ -68,7 +68,7 @@
 						<span class="title">{{ incident.title }}</span>
 						{{ incident.body|safe }}
 						{% for update in incident.updates %}
-							<p><em>Update <span class="moment">{{ update.created.strftime("%d-%b-%Y %H:%M:%S") }} UTC</span></em></p>
+							<p><em>Update <span class="moment">{{ update.created }} UTC</span></em></p>
 							{{ update.body|safe }}
 						{% endfor %}
 					</div>
